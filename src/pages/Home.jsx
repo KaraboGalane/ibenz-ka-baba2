@@ -12,6 +12,7 @@ import { services } from '../data/services'
 import { siteConfig } from '../data/siteConfig'
 
 import heroPhoto from '../assets/hero-photo.jpg'
+import heroVideo from '../assets/hero-video.mp4'
 import aboutPhoto from '../assets/about-photo.jpg'
 
 export default function Home() {
@@ -27,11 +28,16 @@ export default function Home() {
 
       {/* ---------- Hero ---------- */}
       <section className="relative flex min-h-screen items-center overflow-hidden pb-24 pt-24 sm:pb-0">
-        <img
-          src={heroPhoto}
-          alt="A chauffeur stands beside a vintage cream Mercedes-Benz, with guests in formal and traditional dress in the background"
-          className="absolute inset-0 h-full w-full object-cover"
-        />
+        <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  poster={heroPhoto}
+  className="absolute inset-0 h-full w-full object-cover"
+>
+  <source src={heroVideo} type="video/mp4" />
+</video>
         <div className="absolute inset-0 bg-gradient-to-r from-ink-900 via-ink-900/85 to-ink-900/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-transparent to-ink-900/30" />
 
