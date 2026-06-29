@@ -2,11 +2,9 @@
 <html>
   <head>
     <script>
-      window.location.replace(
-        '/ibenz-ka-baba2/' +
-        window.location.pathname.slice(1)
-      );
+      sessionStorage.redirect = location.href;
     </script>
+    <meta http-equiv="refresh" content="0;URL='/ibenz-ka-baba2/'">
   </head>
   <body></body>
 </html>
