@@ -11,6 +11,7 @@ import { fadeUp, fadeLeft, fadeRight, viewportOnce, staggerContainer } from '../
 
 import heroPhoto from '../assets/hero-photo.jpg'
 import aboutPhoto from '../assets/about-photo.jpg'
+import aboutHeroPhoto from '../assets/about-hero.png'
 
 const values = [
   {
@@ -53,7 +54,7 @@ export default function About() {
       {/* ---------- Page header ---------- */}
       <section className="relative flex min-h-[60vh] items-center overflow-hidden pt-24">
         <img
-          src={heroPhoto}
+          src={aboutHeroPhoto}
           alt="Vintage cream Mercedes-Benz with chauffeur, parked among guests in formal attire"
           className="absolute inset-0 h-full w-full object-cover"
         />
