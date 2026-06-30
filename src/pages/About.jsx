@@ -9,8 +9,8 @@ import GrilleDivider from '../components/GrilleDivider'
 import StarEmblem from '../components/StarEmblem'
 import { fadeUp, fadeLeft, fadeRight, viewportOnce, staggerContainer } from '../utils/animations'
 
-import heroPhoto from '../assets/hero-photo.jpg'
-import aboutPhoto from '../assets/about-photo.jpg'
+import heroPhoto from '../assets/hero-photo.png'
+import aboutPhoto from '../assets/about-photo.png'
 import aboutHeroPhoto from '../assets/about-hero.png'
 
 const values = [
