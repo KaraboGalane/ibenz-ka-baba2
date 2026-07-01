@@ -13,7 +13,7 @@ import { siteConfig } from '../data/siteConfig'
 
 import heroPhoto from '../assets/hero-photo.jpg'
 import heroVideo from '../assets/hero-video.mp4'
-import aboutPhoto from '../assets/about-photo.jpg'
+import aboutPhoto from '../assets/about-photo.png'
 
 export default function Home() {
   return (
