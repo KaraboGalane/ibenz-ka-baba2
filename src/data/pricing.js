@@ -31,7 +31,7 @@ export const pricingPackages = [
       'Vintage Mercedes & chauffeur',
       'Full ceremony coverage',
       'Bridal car decoration',
-      'Photography window included',
+      'Photography & Videography window included',
       'Priority booking date',
     ],
     featured: true,
